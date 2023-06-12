@@ -18,13 +18,12 @@ then
 fi
 
 
-if [[ ${nota_examen} -lt 4 ]]
+if [[ ${nota_examen} -le 4 ]]
     then
         echo "La teva nota final és un ${nota_examen}, estàs suspès."
     else
         echo "La teva nota final és un ${nota_examen}, estàs aprovat."
 fi
-
 
 
 
